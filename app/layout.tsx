@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PostsPage from "@/app/posts/page";
 
 export default function RootLayout({
   children,
@@ -12,7 +13,7 @@ export default function RootLayout({
         <nav>
             <Link href="/">
                 Home
-            </Link> &npsp;&nbsp;
+            </Link> &nbsp;&nbsp;
             <Link href="/posts">
                 Post
             </Link>
